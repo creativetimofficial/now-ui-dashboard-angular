@@ -1,227 +1,104 @@
 
+.toast-container{
+  width: 100%;
 
+  .toast-close-button {
+    font-weight: 300;
+    text-shadow: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -14px;
+    width: 25px;
+    height: 25px;
 
+    &:focus{
+      outline: none;
+    }
 
+    &:hover{
+      opacity: 1;
+      color: $white-color;
+    }
 
+    & > span {
+      display: none;
+    }
 
-
-
-
-
-
-
-
-
-
-
-// This file was modified by Creative Tim to keep only the animation that we need for Bootstrap Notify
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@charset "UTF-8";
-
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-}
-
-.animated.bounceIn,
-.animated.bounceOut {
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
-}
-
-.animated.flipOutX,
-.animated.flipOutY {
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
-}
-
-@-webkit-keyframes shake {
-  from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    &:before{
+      display: block;
+      display: inline-block;
+      font: normal normal normal 14px/1 'Nucleo Outline';
+      font-size: inherit;
+      speak: none;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 20px;
+      content: "\ea53";
+      font-weight: 300;
+    }
   }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
+  .alert{
+    z-index: 9999;
+    width: 33.3333%;
+    pointer-events: auto;
+
+    .toast-message {
+      max-width: 89%;
+    }
+
+    &.alert-with-icon{
+      .now-ui-icons{
+        position: absolute;
+        left: 24px;
+        top: 50%;
+        margin-top: -14px;
+        font-size: 24px;
+      }
+    }
   }
 
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+  .toast-error{
+    background-image: none;
+  }
+
+  .toast-success{
+    background-image: none;
+  }
+
+  .toast-info{
+    background-image: none;
+  }
+
+  .toast-warning{
+    background-image: none;
   }
 }
-
-@keyframes shake {
-  from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+.toast-top-center, .toast-bottom-center{
+ .alert{
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+}
+.toast-top-right, .toast-bottom-right{
+ .alert{
+    margin-left: auto;
+    margin-right: 0;
   }
 }
 
-.shake {
-  -webkit-animation-name: shake;
-  animation-name: shake;
+.toast-top-center{
+  top: 12px;
 }
 
-
-
-@-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
+.toast-bottom-center{
+  bottom: 12px;
 }
 
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
+@media screen and (max-width: 767px) {
+  .toast-container .alert{
+    width: 91.6666%;
   }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-
-
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-.fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-}
-
-@-webkit-keyframes fadeOutDown {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
-@keyframes fadeOutDown {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-
-.fadeOutDown {
-  -webkit-animation-name: fadeOutDown;
-  animation-name: fadeOutDown;
-}
-
-@-webkit-keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-
-@keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-
-.fadeOutUp {
-  -webkit-animation-name: fadeOutUp;
-  animation-name: fadeOutUp;
 }

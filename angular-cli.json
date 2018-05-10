@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
           "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
+          "../node_modules/ngx-toastr/toastr.css",
           "./assets/scss/now-ui-dashboard.scss",
           "./assets/demo/demo.css"
       ],
