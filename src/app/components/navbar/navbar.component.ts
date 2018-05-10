@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
 
-
+    public isCollapsed = true;
 
     constructor(location: Location,  private element: ElementRef, private router: Router) {
       this.location = location;
@@ -37,9 +37,28 @@ export class NavbarComponent implements OnInit {
      });
     }
 
+    collapse(){
+      this.isCollapsed = !this.isCollapsed;
+      const navbar = document.getElementsByTagName('nav')[0];
+      console.log(navbar);
+      if (!this.isCollapsed) {
+        navbar.classList.remove('navbar-transparent');
+        navbar.classList.add('bg-white');
+      }else{
+        navbar.classList.add('navbar-transparent');
+        navbar.classList.remove('bg-white');
+      }
+
+    }
+
     sidebarOpen() {
         const toggleButton = this.toggleButton;
+        const mainPanel =  <HTMLElement>document.getElementsByClassName('main-panel')[0];
         const html = document.getElementsByTagName('html')[0];
+        if (window.innerWidth < 991) {
+          mainPanel.style.position = 'fixed';
+        }
+
         setTimeout(function(){
             toggleButton.classList.add('toggled');
         }, 500);
@@ -51,6 +70,13 @@ export class NavbarComponent implements OnInit {
     sidebarClose() {
         const html = document.getElementsByTagName('html')[0];
         this.toggleButton.classList.remove('toggled');
+        const mainPanel =  <HTMLElement>document.getElementsByClassName('main-panel')[0];
+
+        if (window.innerWidth < 991) {
+          setTimeout(function(){
+            mainPanel.style.position = '';
+          }, 500);
+        }
         this.sidebarVisible = false;
         html.classList.remove('nav-open');
     };

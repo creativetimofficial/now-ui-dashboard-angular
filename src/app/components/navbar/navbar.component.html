@@ -11,12 +11,13 @@
             </div>
             <a class="navbar-brand" href="#pablo">{{getTitle()}}</a>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" (click)="collapse()"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
           <span class="navbar-toggler-bar navbar-kebab"></span>
           <span class="navbar-toggler-bar navbar-kebab"></span>
           <span class="navbar-toggler-bar navbar-kebab"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navigation">
+        <div class="collapse navbar-collapse justify-content-end" id="collapseExample" [ngbCollapse]="isCollapsed">
           <form>
             <div class="input-group no-border">
               <input type="text" value="" class="form-control" placeholder="Search...">
