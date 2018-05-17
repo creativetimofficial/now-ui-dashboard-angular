@@ -91,8 +91,8 @@ export class DashboardComponent implements OnInit {
          backgroundColor: this.gradientFill,
          borderColor: this.chartColor,
          pointBorderColor: this.chartColor,
-         pointBackgroundColor: "#1e3d60",
-         pointHoverBackgroundColor: "#1e3d60",
+         pointBackgroundColor: "#2c2c2c",
+         pointHoverBackgroundColor: "#2c2c2c",
          pointHoverBorderColor: this.chartColor,
        }
      ];
