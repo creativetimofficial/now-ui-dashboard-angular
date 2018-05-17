@@ -50,11 +50,11 @@ module.exports = "\n<router-outlet></router-outlet>\n"
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/filter.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("./node_modules/rxjs-compat/_esm5/add/operator/filter.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__("./node_modules/@angular/common/fesm5/common.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -72,7 +72,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 
-var AppComponent = (function () {
+var AppComponent = /** @class */ (function () {
     function AppComponent(renderer, router, document, element, location) {
         var _this = this;
         this.renderer = renderer;
@@ -104,7 +104,7 @@ var AppComponent = (function () {
             styles: [__webpack_require__("./src/app/app.component.css")]
         }),
         __param(2, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["b" /* DOCUMENT */])),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"], __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */], Object, __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], __WEBPACK_IMPORTED_MODULE_4__angular_common__["f" /* Location */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"], __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* Router */], Object, __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], __WEBPACK_IMPORTED_MODULE_4__angular_common__["h" /* Location */]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -118,19 +118,18 @@ var AppComponent = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__("./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_share_buttons__ = __webpack_require__("./node_modules/@ngx-share/buttons/esm5/ngx-share-buttons.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_components_module__ = __webpack_require__("./src/app/components/components.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__agm_core__ = __webpack_require__("./node_modules/@agm/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__layouts_admin_layout_admin_layout_component__ = __webpack_require__("./src/app/layouts/admin-layout/admin-layout.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__layouts_documentation_documentation_component__ = __webpack_require__("./src/app/layouts/documentation/documentation.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__layouts_admin_layout_admin_layout_component__ = __webpack_require__("./src/app/layouts/admin-layout/admin-layout.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__layouts_documentation_documentation_component__ = __webpack_require__("./src/app/layouts/documentation/documentation.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -149,8 +148,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-var AppModule = (function () {
+var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
@@ -163,15 +161,12 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_4__angular_router__["d" /* RouterModule */],
                 __WEBPACK_IMPORTED_MODULE_7__app_routing__["a" /* AppRoutingModule */],
                 __WEBPACK_IMPORTED_MODULE_6__ngx_share_buttons__["a" /* ShareButtonsModule */].forRoot(),
-                __WEBPACK_IMPORTED_MODULE_10__agm_core__["a" /* AgmCoreModule */].forRoot({
-                    apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
-                }),
                 __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__["b" /* NgbModule */].forRoot()
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__layouts_admin_layout_admin_layout_component__["a" /* AdminLayoutComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__layouts_documentation_documentation_component__["a" /* DocumentationComponent */]
+                __WEBPACK_IMPORTED_MODULE_10__layouts_admin_layout_admin_layout_component__["a" /* AdminLayoutComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__layouts_documentation_documentation_component__["a" /* DocumentationComponent */]
             ],
             providers: [],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */]]
@@ -189,10 +184,10 @@ var AppModule = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layouts_admin_layout_admin_layout_component__ = __webpack_require__("./src/app/layouts/admin-layout/admin-layout.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__layouts_documentation_documentation_component__ = __webpack_require__("./src/app/layouts/documentation/documentation.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -220,7 +215,7 @@ var routes = [
             }
         ] }
 ];
-var AppRoutingModule = (function () {
+var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([
@@ -245,9 +240,9 @@ var AppRoutingModule = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ng_bootstrap_ng_bootstrap__ = __webpack_require__("./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__footer_footer_component__ = __webpack_require__("./src/app/components/footer/footer.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navbar_navbar_component__ = __webpack_require__("./src/app/components/navbar/navbar.component.ts");
@@ -265,7 +260,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ComponentsModule = (function () {
+var ComponentsModule = /** @class */ (function () {
     function ComponentsModule() {
     }
     ComponentsModule = __decorate([
@@ -313,7 +308,7 @@ module.exports = "\n<footer class=\"footer\">\n  <div class=\"container-fluid\">
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FooterComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -324,7 +319,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var FooterComponent = (function () {
+var FooterComponent = /** @class */ (function () {
     function FooterComponent() {
         this.test = new Date();
     }
@@ -364,10 +359,10 @@ module.exports = "\n<nav class=\"navbar navbar-expand-lg navbar-transparent  nav
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavbarComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sidebar_sidebar_component__ = __webpack_require__("./src/app/components/sidebar/sidebar.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -381,7 +376,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var NavbarComponent = (function () {
+var NavbarComponent = /** @class */ (function () {
     function NavbarComponent(location, element, router) {
         this.element = element;
         this.router = router;
@@ -514,7 +509,7 @@ var NavbarComponent = (function () {
             template: __webpack_require__("./src/app/components/navbar/navbar.component.html"),
             styles: [__webpack_require__("./src/app/components/navbar/navbar.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_common__["h" /* Location */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]])
     ], NavbarComponent);
     return NavbarComponent;
 }());
@@ -543,7 +538,7 @@ module.exports = "\n<div class=\"logo\">\n    <a href=\"https://www.creative-tim
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ROUTES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return SidebarComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -563,7 +558,7 @@ var ROUTES = [
     { path: '/table-list', title: 'Table List', icon: 'design_bullet-list-67', class: '' },
     { path: '/typography', title: 'Typography', icon: 'text_caps-small', class: '' }
 ];
-var SidebarComponent = (function () {
+var SidebarComponent = /** @class */ (function () {
     function SidebarComponent() {
     }
     SidebarComponent.prototype.ngOnInit = function () {
@@ -594,7 +589,7 @@ var SidebarComponent = (function () {
 /***/ "./src/app/layouts/admin-layout/admin-layout.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color=\"red\">\n        <app-sidebar></app-sidebar>\n    </div>\n    <div class=\"main-panel\">\n        <app-navbar></app-navbar>\n        <router-outlet></router-outlet>\n        <app-footer></app-footer>\n    </div>\n</div>\n<div class=\"fixed-plugin\">\n  <div ngbDropdown>\n    <a ngbDropdownToggle id=\"dropdownConfig\">\n      <i class=\"fa fa-cog fa-2x\"> </i>\n    </a>\n    <ul style=\"position: absolute; transform: translate3d(-231px, 38px, 0px); top: 0px; left: 0px; will-change: transform;\" ngbDropdownMenu aria-labelledby=\"dropdownConfig\">\n      <li class=\"header-title\"> Sidebar Background</li>\n      <li class=\"adjustments-line\">\n          <a href=\"javascript:void(0)\" class=\"switch-trigger background-color\">\n              <div class=\"badge-colors text-center\">\n                  <span class=\"badge filter badge-yellow\" [ngClass]=\"{'active':sidebarColor==='yellow'}\" (click)=\"changeSidebarColor('yellow')\"></span>\n                  <span class=\"badge filter badge-blue\" [ngClass]=\"{'active':sidebarColor==='blue'}\" (click)=\"changeSidebarColor('blue')\"></span>\n                  <span class=\"badge filter badge-green\" [ngClass]=\"{'active':sidebarColor==='green'}\" (click)=\"changeSidebarColor('green')\"></span>\n                  <span class=\"badge filter badge-orange\" [ngClass]=\"{'active':sidebarColor==='orange'}\" (click)=\"changeSidebarColor('orange')\"></span>\n                  <span class=\"badge filter badge-red\" [ngClass]=\"{'active':sidebarColor==='red'}\" (click)=\"changeSidebarColor('red')\"></span>\n              </div>\n              <div class=\"clearfix\"></div>\n          </a>\n      </li>\n\n      <li class=\"button-container\">\n          <a href=\"https://www.creative-tim.com/product/now-ui-dashboard-angular\" target=\"_blank\" class=\"btn btn-primary btn-block btn-round\">Download Now</a>\n          <a href=\"https://creativetimofficial.github.io/now-ui-dashboard-angular/documentation/tutorial\" target=\"_blank\" class=\"btn btn-default btn-block btn-round\">\n              <i class=\"now-ui-icons files_single-copy-04\"></i>\n              Documentation\n          </a>\n      </li>\n\n      <li class=\"header-title\">Thank you for 95 shares!</li>\n      <li class=\"button-container text-center\">\n        <share-buttons [theme]=\"'modern-dark'\"\n [include]=\"['facebook','twitter']\"\n [show]=\"5\"\n [url]=\"'https://creativetimofficial.github.io/now-ui-dashboard-angular/dashboard'\"\n></share-buttons>\n          <br>\n          <br>\n          <iframe allowtransparency=\"true\" scrolling=\"no\" frameborder=\"0\" src=\"https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fcreativetimofficial%2Fnow-ui-dashboard-angular&amp;title=&amp;aria-label=Star%20ntkme%2Fgithub-buttons%20on%20GitHub&amp;data-icon=octicon-star&amp;data-text=Star&amp;data-size=large&amp;data-show-count=true\" style=\"width: 102px; height: 28px; border: none;\"></iframe>\n      </li>\n    </ul>\n\n  </div>\n\n</div>\n"
+module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color=\"red\">\n        <app-sidebar></app-sidebar>\n    </div>\n    <div class=\"main-panel\">\n        <app-navbar></app-navbar>\n        <router-outlet></router-outlet>\n        <app-footer></app-footer>\n    </div>\n</div>\n<div class=\"fixed-plugin\">\n  <div ngbDropdown>\n    <a ngbDropdownToggle id=\"dropdownConfig\">\n      <i class=\"fa fa-cog fa-2x\"> </i>\n    </a>\n    <ul style=\"position: absolute; transform: translate3d(-231px, 38px, 0px); top: 0px; left: 0px; will-change: transform;\" ngbDropdownMenu aria-labelledby=\"dropdownConfig\">\n      <li class=\"header-title\"> Sidebar Background</li>\n      <li class=\"adjustments-line\">\n          <a href=\"javascript:void(0)\" class=\"switch-trigger background-color\">\n              <div class=\"badge-colors text-center\">\n                  <span class=\"badge filter badge-yellow\" [ngClass]=\"{'active':sidebarColor==='yellow'}\" (click)=\"changeSidebarColor('yellow')\"></span>\n                  <span class=\"badge filter badge-blue\" [ngClass]=\"{'active':sidebarColor==='blue'}\" (click)=\"changeSidebarColor('blue')\"></span>\n                  <span class=\"badge filter badge-green\" [ngClass]=\"{'active':sidebarColor==='green'}\" (click)=\"changeSidebarColor('green')\"></span>\n                  <span class=\"badge filter badge-orange\" [ngClass]=\"{'active':sidebarColor==='orange'}\" (click)=\"changeSidebarColor('orange')\"></span>\n                  <span class=\"badge filter badge-red\" [ngClass]=\"{'active':sidebarColor==='red'}\" (click)=\"changeSidebarColor('red')\"></span>\n              </div>\n              <div class=\"clearfix\"></div>\n          </a>\n      </li>\n\n      <li class=\"button-container\" routerLinkActive=\"active\">\n          <a href=\"https://www.creative-tim.com/product/now-ui-dashboard-angular\" target=\"_blank\" class=\"btn btn-primary btn-block btn-round\">Download Now</a>\n          <a [routerLink]=\"['/documentation/tutorial']\" target=\"_blank\" class=\"btn btn-default btn-block btn-round\">\n              <i class=\"now-ui-icons files_single-copy-04\"></i>\n              Documentation\n          </a>\n      </li>\n\n      <li class=\"header-title\">Thank you for 95 shares!</li>\n      <li class=\"button-container text-center\">\n        <share-buttons [theme]=\"'modern-dark'\"\n [include]=\"['facebook','twitter']\"\n [show]=\"5\"\n [url]=\"'https://creativetimofficial.github.io/now-ui-dashboard-angular/dashboard'\"\n></share-buttons>\n          <br>\n          <br>\n          <iframe allowtransparency=\"true\" scrolling=\"no\" frameborder=\"0\" src=\"https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fcreativetimofficial%2Fnow-ui-dashboard-angular&amp;title=&amp;aria-label=Star%20ntkme%2Fgithub-buttons%20on%20GitHub&amp;data-icon=octicon-star&amp;data-text=Star&amp;data-size=large&amp;data-show-count=true\" style=\"width: 102px; height: 28px; border: none;\"></iframe>\n      </li>\n    </ul>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -610,10 +605,10 @@ module.exports = ""
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminLayoutComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/filter.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("./node_modules/rxjs-compat/_esm5/add/operator/filter.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_perfect_scrollbar__ = __webpack_require__("./node_modules/perfect-scrollbar/dist/perfect-scrollbar.esm.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__("./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -631,7 +626,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var AdminLayoutComponent = (function () {
+var AdminLayoutComponent = /** @class */ (function () {
     function AdminLayoutComponent(config, location, router) {
         this.location = location;
         this.router = router;
@@ -720,7 +715,7 @@ var AdminLayoutComponent = (function () {
             styles: [__webpack_require__("./src/app/layouts/admin-layout/admin-layout.component.scss")],
             providers: [__WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__["a" /* NgbDropdownConfig */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__["a" /* NgbDropdownConfig */], __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__["a" /* NgbDropdownConfig */], __WEBPACK_IMPORTED_MODULE_1__angular_common__["h" /* Location */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["c" /* Router */]])
     ], AdminLayoutComponent);
     return AdminLayoutComponent;
 }());
@@ -732,7 +727,7 @@ var AdminLayoutComponent = (function () {
 /***/ "./src/app/layouts/documentation/documentation.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand navbar-dark bg-primary flex-column flex-md-row nav-fixed-top\">\n  <a class=\"navbar-brand mr-0 mr-md-2 navbar-absolute-logo\" href=\"https://www.creative-tim.com/product/now-ui-dashboard-angular\" target=\"_blank\">\n    <div class=\"image-container\">\n        <img src=\"./assets/img/angular2-logo-white.png\" alt=\"Angular2 Logo\">\n    </div>\n    Now UI Dashboard Angular\n  </a>\n\n  <ul class=\"navbar-nav flex-row d-none d-md-flex\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link p-2\" href=\"#version\">\n        1.0.0\n      </a>\n    </li>\n    <li class=\"nav-item\">\n          <a class=\"nav-link p-2\" href=\"https://github.com/creativetimofficial/now-ui-dashboard-angular\" target=\"_blank\" rel=\"noopener\" aria-label=\"GitHub\">\n            <svg class=\"navbar-nav-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 499.36\" focusable=\"false\"><title>GitHub</title><path d=\"M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z\" fill=\"currentColor\" fill-rule=\"evenodd\"></path></svg>\n\n          </a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link p-2\" href=\"https://twitter.com/CreativeTim\" target=\"_blank\" rel=\"noopener\" aria-label=\"Twitter\">\n        <svg class=\"navbar-nav-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 416.32\" focusable=\"false\"><title>Twitter</title><path d=\"M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92\" fill=\"currentColor\"></path></svg>\n\n      </a>\n    </li>\n\n  </ul>\n\n  <div class=\"navbar-nav-scroll ml-md-auto \">\n    <ul class=\"navbar-nav flex-row\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"https://demos.creative-tim.com/now-ui-dashboard/examples/dashboard.html\"><i class=\"now-ui-icons tech_tv\"></i>Back to Dashboard</a>\n        </li>\n\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"https://github.com/creativetimofficial/now-ui-dashboard-angular/issues\" target=\"_blank\" rel=\"noopener\"><i class=\"now-ui-icons ui-2_settings-90\"></i> Report Issue</a>\n      </li>\n    </ul>\n  </div>\n\n</nav>\n<div class=\"container-fluid\">\n    <div class=\"row flex-xl-nowrap\">\n        <div class=\"col-12 col-md-3 col-xl-2 bd-sidebar\">\n            <div class=\"fixed-section affix-top\" data-spy=\"affix\" data-offset-top=\"600\">\n                <ul>\n\t\t\t\t             <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/tutorial']\">License and Tutorial</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/buttons']\">Buttons</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/breadcrumb']\">Breadcrumb</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/crs']\">Checkbox/Radio/Toggle</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/dropdown']\">Dropdown</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/inputs']\">Inputs</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/textarea']\">Textarea</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/navigation']\">Navigation</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/tables']\">Tables</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/notifications']\">Notifications</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/perfectscrollbar']\">Perfect Scrollbar</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/charts']\">Chart.js</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/cards']\">Cards</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/changing-colors']\">Changing Colors</a></li>\n                </ul>\n            </div>\n        </div>\n        <div class=\"col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content\">\n          <router-outlet></router-outlet>\n        </div>\n    </div>\n</div>\n"
+module.exports = "<nav class=\"navbar navbar-expand navbar-dark bg-primary flex-column flex-md-row nav-fixed-top\">\n  <a class=\"navbar-brand mr-0 mr-md-2 navbar-absolute-logo\" href=\"https://www.creative-tim.com/product/now-ui-dashboard-angular\" target=\"_blank\">\n    <div class=\"image-container\">\n        <img src=\"./assets/img/angular2-logo-white.png\" alt=\"Angular2 Logo\">\n    </div>\n    Now UI Dashboard Angular\n  </a>\n\n  <ul class=\"navbar-nav flex-row d-none d-md-flex\">\n    <li class=\"nav-item\" routerLinkActive=\"active\">\n      <a class=\"nav-link p-2\" [routerLink]=\"['/documentation/tutorial']\">\n        1.0.0\n      </a>\n    </li>\n    <li class=\"nav-item\">\n          <a class=\"nav-link p-2\" href=\"https://github.com/creativetimofficial/now-ui-dashboard-angular\" target=\"_blank\" rel=\"noopener\" aria-label=\"GitHub\">\n            <svg class=\"navbar-nav-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 499.36\" focusable=\"false\"><title>GitHub</title><path d=\"M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z\" fill=\"currentColor\" fill-rule=\"evenodd\"></path></svg>\n\n          </a>\n        </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link p-2\" href=\"https://twitter.com/CreativeTim\" target=\"_blank\" rel=\"noopener\" aria-label=\"Twitter\">\n        <svg class=\"navbar-nav-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 416.32\" focusable=\"false\"><title>Twitter</title><path d=\"M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92\" fill=\"currentColor\"></path></svg>\n\n      </a>\n    </li>\n\n  </ul>\n\n  <div class=\"navbar-nav-scroll ml-md-auto \">\n    <ul class=\"navbar-nav flex-row\">\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/dashboard']\"><i class=\"now-ui-icons tech_tv\"></i>Back to Dashboard</a>\n        </li>\n\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"https://github.com/creativetimofficial/now-ui-dashboard-angular/issues\" target=\"_blank\" rel=\"noopener\"><i class=\"now-ui-icons ui-2_settings-90\"></i> Report Issue</a>\n      </li>\n    </ul>\n  </div>\n\n</nav>\n<div class=\"container-fluid\">\n    <div class=\"row flex-xl-nowrap\">\n        <div class=\"col-12 col-md-3 col-xl-2 bd-sidebar\">\n            <div class=\"fixed-section affix-top\" data-spy=\"affix\" data-offset-top=\"600\">\n                <ul>\n\t\t\t\t             <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/tutorial']\">License and Tutorial</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/buttons']\">Buttons</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/breadcrumb']\">Breadcrumb</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/crs']\">Checkbox/Radio/Toggle</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/dropdown']\">Dropdown</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/inputs']\">Inputs</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/textarea']\">Textarea</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/navigation']\">Navigation</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/tables']\">Tables</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/notifications']\">Notifications</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/perfectscrollbar']\">Perfect Scrollbar</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/charts']\">Chart.js</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/cards']\">Cards</a></li>\n                    <li><a routerLinkActive = \"active\" [routerLink]=\"['/documentation/changing-colors']\">Changing Colors</a></li>\n                </ul>\n            </div>\n        </div>\n        <div class=\"col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content\">\n          <router-outlet></router-outlet>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -748,7 +743,7 @@ module.exports = ".nav-fixed-top {\n  position: -webkit-sticky;\n  position: sti
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DocumentationComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -756,7 +751,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-var DocumentationComponent = (function () {
+var DocumentationComponent = /** @class */ (function () {
     function DocumentationComponent() {
         this.date = new Date();
     }
@@ -803,8 +798,8 @@ var environment = {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("./src/app/app.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_hammerjs__ = __webpack_require__("./node_modules/hammerjs/hammer.js");
