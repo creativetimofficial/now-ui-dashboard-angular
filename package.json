@@ -34,6 +34,7 @@
     "font-awesome": "4.7.0",
     "hammerjs": "2.0.8",
     "jquery": "3.2.1",
+    "jw-bootstrap-switch-ng2": "1.0.10",
     "ng2-charts": "1.6.0",
     "ngx-toastr": "^8.5.0",
     "nouislider": "10.0.0",
