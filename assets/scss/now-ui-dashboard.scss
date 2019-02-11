@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Now UI Dashboard Angular - v1.0.0
+ * Now UI Dashboard Angular - v1.1.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/now-ui-dashboard-angular
@@ -14,9 +14,8 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
- @import '~@ngx-share/button/styles/share-buttons';
- @import '~@ngx-share/button/styles/themes/modern/modern-dark-theme';
- 
+ @import '~@ngx-share/button/themes/modern/modern-dark-theme';
+
  @import "~bootstrap/scss/bootstrap";
  @import 'now-ui-dashboard/variables';
  @import 'now-ui-dashboard/mixins';
@@ -24,6 +23,8 @@
  // Plugins CSS
  @import "now-ui-dashboard/plugins/plugin-animate-bootstrap-notify";
  @import "now-ui-dashboard/plugins/plugin-perfect-scrollbar";
+ @import "now-ui-dashboard/plugins/angular-share";
+
 
  // Core CSS
  @import "now-ui-dashboard/buttons";
