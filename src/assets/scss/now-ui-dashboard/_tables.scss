@@ -166,3 +166,9 @@
 #tables .table-responsive{
     margin-bottom: 30px;
 }
+.table thead th{
+  border-bottom: none;
+}
+.table th{
+  border-top: none;
+}

@@ -339,9 +339,7 @@
   height: 260px;
   padding-top: 80px;
   padding-bottom: 45px;
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-gradient(linear, left top, right top, from(#0c2646), color-stop(60%, #204065), to(#2a5788));
-  background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+  @include panel-gradient($black-color);
   position: relative;
   overflow: hidden;
 
