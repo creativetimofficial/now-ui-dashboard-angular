@@ -113,9 +113,22 @@
                 }
             }
 
-            &.active > a{
+            &.active > a,
+            &.active-pro > a{
               background-color: $white-color;
               box-shadow: $box-shadow;
+              i{
+                color: $danger-color;
+              }
+            }
+            :hover &.active-pro > a,
+            :focus &.active-pro > a{
+              background-color: $white-color;
+              box-shadow: $box-shadow;
+              color: $danger-color;
+              i{
+                color: $danger-color;
+              }
             }
         }
 
