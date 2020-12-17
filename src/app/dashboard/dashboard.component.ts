@@ -230,6 +230,9 @@ export class DashboardComponent implements OnInit {
           gridLines: {
             zeroLineColor: "transparent",
             drawBorder: false
+          },
+          ticks: {
+              stepSize: 500
           }
         }],
         xAxes: [{
@@ -379,6 +382,9 @@ export class DashboardComponent implements OnInit {
             gridLines: {
               zeroLineColor: "transparent",
               drawBorder: false
+            },
+            ticks: {
+                stepSize: 20
             }
           }],
           xAxes: [{
