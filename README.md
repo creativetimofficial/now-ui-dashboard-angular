@@ -5,7 +5,7 @@
 **[Now UI Dashboard Angular](https://creativetimofficial.github.io/now-ui-dashboard-angular)** is a responsive Bootstrap 4 kit provided for free by [Invision](https://www.invisionapp.com/) and [Creative Tim](https://www.creative-tim.com/). It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics. Now UI Dashboard comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
 
 Now UI Dashboard Angular has the same design characteristics as Now UI Kit Angular, so it is quite convenient to use them together. Or you can choose between them depending on the project at hand. If you love Now UI Kit Angular, you'll love Now UI Dashboard Angular.
-Create awesome, lifelike prototypes with InVision and Now so your users can experience and give feedback on your vision!
+Create awesome, lifelike prototypes with InVision and Now so your users can experience and give feedback on your vision!.
 
 
 **Bootstrap 4 Support**
