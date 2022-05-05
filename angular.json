@@ -23,6 +23,7 @@
             ],
             "styles": [
               "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/ngx-toastr/toastr.css",
               "src/assets/scss/now-ui-dashboard.scss",
               "src/assets/demo/demo.css"
@@ -36,9 +37,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -48,6 +47,14 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ]
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
           }
         },
@@ -59,7 +66,11 @@
           "configurations": {
             "production": {
               "browserTarget": "now-ui-dashboard-angular:build:production"
-            }
+            },
+            "development": {
+              "browserTarget": "now-ui-dashboard-angular:build:development"
+            },
+            "defaultConfiguration": "development"
           }
         },
         "extract-i18n": {
