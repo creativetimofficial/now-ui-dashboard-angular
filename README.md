@@ -14,6 +14,12 @@ Now UI Dashboard Angular is built on top of the much awaited Bootstrap 4. This m
 **Example Pages**
 We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components. Inside the product you will find:
 
+## Deploy
+
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/now-ui-dashboard-angular&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+
 ## Links:
 
 + [Live Preview](https://creativetimofficial.github.io/now-ui-dashboard-angular)
