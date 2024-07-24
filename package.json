@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "cross-env CI=false ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -75,6 +75,7 @@
     "@types/bootstrap": "5.0.1",
     "@types/chartist": "0.11.0",
     "@types/googlemaps": "3.40.5",
-    "@types/jquery": "3.5.5"
+    "@types/jquery": "3.5.5",
+    "cross-env": "^7.0.3"
   }
 }
